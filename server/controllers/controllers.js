@@ -17,7 +17,7 @@ const fetchTollData = async (req, res) => {
   const config = {
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": "config.APIKEY",
+      "x-api-key": "config.API_KEY",
     },
   };
   try {
